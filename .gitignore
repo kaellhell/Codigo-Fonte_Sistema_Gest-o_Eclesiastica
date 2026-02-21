@@ -1,0 +1,14 @@
+# Ignorar arquivos do empacotador
+build/
+dist/
+*.spec
+*.exe
+
+# Ignorar banco de dados e arquivos de clientes
+*.db
+*.log
+fotos_membros/
+relatorio_*.pdf
+
+# Ignorar arquivos do sistema Python
+__pycache__/
